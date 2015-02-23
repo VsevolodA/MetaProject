@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+    <servlet>
+        <servlet-name>ObjectTypeCreateServlet</servlet-name>
+        <servlet-class>vska.servlet.objecttype.ObjectTypeCreateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ObjectTypeCreateServlet</servlet-name>
+        <url-pattern>/createobjecttype</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ObjectTypeDelete</servlet-name>
+        <servlet-class>vska.servlet.objecttype.ObjectTypeDelete</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ObjectTypeDelete</servlet-name>
+        <url-pattern>/deleteobjecttype</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ObjectTypeList</servlet-name>
+        <servlet-class>vska.servlet.objecttype.ObjectTypeListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ObjectTypeList</servlet-name>
+        <url-pattern>/objecttypelist</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ObjectCreateServlet</servlet-name>
+        <servlet-class>vska.servlet.object.ObjectCreateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ObjectCreateServlet</servlet-name>
+        <url-pattern>/createobject</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DeleteObjectServlet</servlet-name>
+        <servlet-class>vska.servlet.object.DeleteObjectServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteObjectServlet</servlet-name>
+        <url-pattern>/deleteobject</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ObjectListServlet</servlet-name>
+        <servlet-class>vska.servlet.object.ObjectListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ObjectListServlet</servlet-name>
+        <url-pattern>/objectlist</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AttributeCreateServlet</servlet-name>
+        <servlet-class>vska.servlet.attribute.AttributeCreateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AttributeCreateServlet</servlet-name>
+        <url-pattern>/createattribute</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AttributeDeleteServlet</servlet-name>
+        <servlet-class>vska.servlet.attribute.AttributeDeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AttributeDeleteServlet</servlet-name>
+        <url-pattern>/deleteattribute</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AttributeListServlet</servlet-name>
+        <servlet-class>vska.servlet.attribute.AttributeListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AttributeListServlet</servlet-name>
+        <url-pattern>/attributelist</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ObjectSearchServlet</servlet-name>
+        <servlet-class>vska.servlet.object.ObjectSearchServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ObjectSearchServlet</servlet-name>
+        <url-pattern>/resofobjectsbysearch</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ObjectParametersServlet</servlet-name>
+        <servlet-class>vska.servlet.object.ObjectParametersServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ObjectParametersServlet</servlet-name>
+        <url-pattern>/objectparameters</url-pattern>
+    </servlet-mapping>
+
+</web-app>
