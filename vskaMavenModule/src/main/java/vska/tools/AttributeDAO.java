@@ -17,16 +17,15 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class AttributeDAO {
-    private static Connection connection;
 
     private static AttributeDAO instance = new AttributeDAO();
 
     public static AttributeDAO getInstance() {
-        connection = JDBCPostgre.getConnection();
         return instance;
     }
 
     public void createAttribute(final String attributeName, final Integer typeId, final String objectTypeName) {
+        final Connection connection = JDBCPostgre.getConnection();
         try {
             connection.setAutoCommit(Boolean.FALSE);
             final String createQuery =
@@ -58,6 +57,7 @@ public class AttributeDAO {
     }
 
     public void deleteAttribute(final String attributeName, final String objectTypeName) {
+        final Connection connection = JDBCPostgre.getConnection();
         try {
             connection.setAutoCommit(Boolean.FALSE);
             final String deleteQuery =
@@ -85,6 +85,7 @@ public class AttributeDAO {
     }
 
     public List<String> getNamesOfAttributesByObjectType (String objectName) {
+        final Connection connection = JDBCPostgre.getConnection();
         try {
             final List<String> res = new ArrayList<String>();
 
@@ -108,6 +109,7 @@ public class AttributeDAO {
     }
 
     public Attribute getAttributeByNameAndOT(String attrName, String objectTypeName) {
+        final Connection connection = JDBCPostgre.getConnection();
         try {
             Attribute attribute = null;
 
@@ -133,6 +135,7 @@ public class AttributeDAO {
     }
 
     public List<Integer> getAttributeIdsByObjectType (String objectTypeName) {
+        final Connection connection = JDBCPostgre.getConnection();
         try {
             final List<Integer> res = new ArrayList<Integer>();
 
@@ -156,6 +159,7 @@ public class AttributeDAO {
     }
 
     public List<Attribute> getAttributeByObjectType (String objectTypeName) {
+        final Connection connection = JDBCPostgre.getConnection();
         try {
             final List<Attribute> res = new ArrayList<Attribute>();
 

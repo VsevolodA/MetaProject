@@ -16,18 +16,18 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public class ObjectTypeDAO {
-    private static Connection connection;
 
     private static ObjectTypeDAO instance = new ObjectTypeDAO();
 
     private ObjectTypeDAO () {}
 
     public static ObjectTypeDAO getInstance() {
-        connection = JDBCPostgre.getConnection();
         return instance;
     }
 
     public ObjectType getObjectType (Integer id) {
+        final Connection connection = JDBCPostgre.getConnection();
+
         try {
             final String selectQuery =
                     "SELECT id, name FROM "+JDBCPostgre.OBJECTTYPES_TABLE+" WHERE id = ?";
@@ -56,6 +56,8 @@ public class ObjectTypeDAO {
     }
 
     public Integer getIdByName (String name) {
+        final Connection connection = JDBCPostgre.getConnection();
+
         try {
             final String selectQuery =
                     "select id from "+JDBCPostgre.OBJECTTYPES_TABLE+" where name = ?";
@@ -74,6 +76,7 @@ public class ObjectTypeDAO {
     }
 
     public void readObjectType (int id) throws SQLException {
+        final Connection connection = JDBCPostgre.getConnection();
 
         final String selectQuery =
                 "SELECT FROM "+JDBCPostgre.OBJECTTYPES_TABLE+" WHERE id = ?";
@@ -85,6 +88,7 @@ public class ObjectTypeDAO {
     }
 
     public void readObjectType (String name) throws SQLException {
+        final Connection connection = JDBCPostgre.getConnection();
 
         final String selectQuery =
                 "SELECT FROM "+JDBCPostgre.OBJECTTYPES_TABLE+" WHERE id = ?";
@@ -96,6 +100,8 @@ public class ObjectTypeDAO {
     }
 
     public List<ObjectType> getListOfObjectTypes() {
+        final Connection connection = JDBCPostgre.getConnection();
+
         List<ObjectType> res = new ArrayList<ObjectType>();
         try {
 
@@ -121,6 +127,8 @@ public class ObjectTypeDAO {
     }
 
     public void createObjectType (int id, String name) {
+        final Connection connection = JDBCPostgre.getConnection();
+
         try {
             connection.setAutoCommit(Boolean.FALSE);
 
@@ -144,6 +152,8 @@ public class ObjectTypeDAO {
     }
 
     public void createObjectType (String name) {
+        final Connection connection = JDBCPostgre.getConnection();
+
         try {
             connection.setAutoCommit(Boolean.FALSE);
 
@@ -175,6 +185,7 @@ public class ObjectTypeDAO {
     }
 
     public void updateObjectType (int id, String newName) throws SQLException {
+        final Connection connection = JDBCPostgre.getConnection();
 
         final String upadateQuery =
                 "UPDATE "+JDBCPostgre.OBJECTTYPES_TABLE+" SET name = ? WHERE id = ?";
@@ -187,6 +198,8 @@ public class ObjectTypeDAO {
     }
 
     public void deleteObjectType (String name){
+        final Connection connection = JDBCPostgre.getConnection();
+
         try {
             connection.setAutoCommit(Boolean.FALSE);
 

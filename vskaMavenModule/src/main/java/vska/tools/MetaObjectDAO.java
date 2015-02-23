@@ -19,16 +19,15 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public class MetaObjectDAO {
-    private static Connection connection;
 
     private static MetaObjectDAO instance = new MetaObjectDAO();
 
     public static MetaObjectDAO getInstance() {
-        connection = JDBCPostgre.getConnection();
         return instance;
     }
 
     public void createObject (String name, String objectTypeName) {
+        final Connection connection = JDBCPostgre.getConnection();
         try {
             connection.setAutoCommit(Boolean.FALSE);
 
@@ -60,6 +59,7 @@ public class MetaObjectDAO {
     }
 
     public void deleteObject (String name, String objectTypeName) {
+        final Connection connection = JDBCPostgre.getConnection();
         try {
             connection.setAutoCommit(Boolean.FALSE);
 
@@ -84,6 +84,8 @@ public class MetaObjectDAO {
     }
 
     public List<MetaObject> getListOfObject() {
+        final Connection connection = JDBCPostgre.getConnection();
+
         List<MetaObject> res = new ArrayList<MetaObject>();
         try {
 
@@ -114,6 +116,8 @@ public class MetaObjectDAO {
     }
 
     public List<MetaObject> findObjectsByName(String objectName) {
+        final Connection connection = JDBCPostgre.getConnection();
+
         List<MetaObject> res = new ArrayList<MetaObject>();
         try {
 
@@ -146,6 +150,8 @@ public class MetaObjectDAO {
     }
 
     public MetaObject getObjectById(Integer objectId) {
+        final Connection connection = JDBCPostgre.getConnection();
+
         MetaObject res = null;
         try {
 
@@ -178,6 +184,8 @@ public class MetaObjectDAO {
     }
 
     public Map<Attribute, AttributeValue> getParameters (MetaObject object) {
+        final Connection connection = JDBCPostgre.getConnection();
+
         try {
             final Map<Attribute, AttributeValue> res = new HashMap<Attribute, AttributeValue>();
 
@@ -229,6 +237,8 @@ public class MetaObjectDAO {
     }
 
     public void flushToDB (MetaObject metaObject, Map<Attribute, Boolean> needUpdate) {
+        final Connection connection = JDBCPostgre.getConnection();
+
         try {
             connection.setAutoCommit(Boolean.FALSE);
 
