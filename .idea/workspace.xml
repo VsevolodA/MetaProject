@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5314460-10b5-42a3-8bb8-3daa17650678" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/WEB-INF/lib/postgresql-9.4-1200.jdbc4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/Attribute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/Attribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeCreateServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/AttributeDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeDeleteServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeListServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/reader/CVSReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/DeleteObjectServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/JDBCPostgre.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/MetaObject.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/MetaObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectCreateServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectListServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectParametersServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectSearchServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/ObjectType.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/ObjectType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeCreateServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeDelete.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeListServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/reader/SQLReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/SearchObject.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/Test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/reader/XMLReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/vskaMavenModule.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/WEB-INF/web.xml" />
+    <list default="true" id="e5314460-10b5-42a3-8bb8-3daa17650678" name="Default" comment="test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MetaProject.iws" />
@@ -71,7 +39,7 @@
     <file path="/ObjectSearchServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424685826866" ignored="false" />
     <file path="/MetaObject.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424647211119" ignored="false" />
     <file path="/a.dummy" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424648007906" ignored="false" />
-    <file path="/Dummy.txt" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424729025108" ignored="false" />
+    <file path="/Dummy.txt" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424729161878" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,26 +319,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MetaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MetaProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vskaMavenModule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -703,14 +657,18 @@
       <created>1424728841419</created>
       <updated>1424728841419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1424729070458</created>
+      <updated>1424729070458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1376" height="748" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -985,7 +943,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
