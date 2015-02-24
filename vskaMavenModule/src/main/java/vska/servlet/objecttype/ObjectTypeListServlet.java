@@ -38,7 +38,7 @@ public class ObjectTypeListServlet extends HttpServlet {
 
             out.println("<tr>");
             out.println("<td>"+val.getId()+"</td>");
-            out.println("<td>"+val.getName()+"</td>");
+            out.println("<td><a href=\"/metaproject/objecttypeupdate?otId="+val.getId()+"\">"+val.getName()+"</a></td>");
             out.println("</tr>");
 
         }

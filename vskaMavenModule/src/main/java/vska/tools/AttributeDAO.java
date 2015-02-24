@@ -1,6 +1,7 @@
 package vska.tools;
 
 import vska.meta.Attribute;
+import vska.meta.ObjectType;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -70,6 +71,31 @@ public class AttributeDAO {
 
             preparedStatement.setString(1, attributeName);
             preparedStatement.setInt(2, objecTypeId);
+
+            preparedStatement.execute();
+            connection.commit();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            try {
+                connection.rollback();
+            } catch (SQLException e1) {
+                e1.printStackTrace();
+                throw new RuntimeException(e1);
+            }
+        }
+    }
+
+    public void flushToDB(Attribute attribute) {
+        final Connection connection = JDBCPostgre.getConnection();
+        try {
+            connection.setAutoCommit(Boolean.FALSE);
+            final String updateQuery =
+                    "UPDATE attribute SET name = ? WHERE id = ?";
+
+            final PreparedStatement preparedStatement = connection.prepareStatement(updateQuery);
+
+            preparedStatement.setString(1, attribute.getName());
+            preparedStatement.setInt(2, attribute.getId());
 
             preparedStatement.execute();
             connection.commit();
@@ -162,12 +188,16 @@ public class AttributeDAO {
         final Connection connection = JDBCPostgre.getConnection();
         try {
             final List<Attribute> res = new ArrayList<Attribute>();
+            final ObjectType objectType = ObjectTypeDAO.getInstance().getObjectType(objectTypeName);
+            if (objectType == null) {
+                return res;
+            }
 
             final String getNamesQuery =
                     "SELECT attr.id, attr.name attrname, attr.type_id FROM "+JDBCPostgre.ATTRIBUTE_TABLE+" attr " +
                             "WHERE attr.object_type_id = ?";
             final PreparedStatement preparedStatement = connection.prepareStatement(getNamesQuery);
-            preparedStatement.setInt(1, ObjectTypeDAO.getInstance().getIdByName(objectTypeName));
+            preparedStatement.setInt(1, objectType.getId());
 
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
@@ -179,6 +209,56 @@ public class AttributeDAO {
                 res.add(attribute);
             }
             return res;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public Attribute getAttributeById (Integer attributeId) {
+        final Connection connection = JDBCPostgre.getConnection();
+        try {
+
+            final String getNamesQuery =
+                    "SELECT attr.id, attr.name attrname, attr.type_id FROM "+JDBCPostgre.ATTRIBUTE_TABLE+" attr " +
+                            "WHERE attr.id = ?";
+            final PreparedStatement preparedStatement = connection.prepareStatement(getNamesQuery);
+            preparedStatement.setInt(1, attributeId);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                final Integer attrId = resultSet.getInt("id");
+                final String attrName = resultSet.getString("attrname");
+                final Integer typeId = resultSet.getInt("type_id");
+
+                Attribute attribute = new Attribute(attrId, attrName, typeId);
+                return attribute;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public Attribute getAttributeByName (String attributeName) {
+        final Connection connection = JDBCPostgre.getConnection();
+        try {
+
+            final String getNamesQuery =
+                    "SELECT attr.id, attr.name attrname, attr.type_id FROM "+JDBCPostgre.ATTRIBUTE_TABLE+" attr " +
+                            "WHERE attr.name = ?";
+            final PreparedStatement preparedStatement = connection.prepareStatement(getNamesQuery);
+            preparedStatement.setString(1, attributeName);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                final Integer attrId = resultSet.getInt("id");
+                final String attrName = resultSet.getString("attrname");
+                final Integer typeId = resultSet.getInt("type_id");
+
+                Attribute attribute = new Attribute(attrId, attrName, typeId);
+                return attribute;
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }

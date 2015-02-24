@@ -1,5 +1,6 @@
 package vska.servlet.attribute;
 
+import vska.meta.Attribute;
 import vska.meta.MetaObject;
 import vska.tools.AttributeDAO;
 import vska.tools.MetaObjectDAO;
@@ -61,10 +62,10 @@ public class AttributeListServlet extends HttpServlet {
 
         if (!emptyEnum) {
             String objectType = paramNames.get("objecttype")[0];
-            List<String> namesOfAttributes = AttributeDAO.getInstance().getNamesOfAttributesByObjectType(objectType);
+            List<Attribute> attributes = AttributeDAO.getInstance().getAttributeByObjectType(objectType);
 
-            for (String name : namesOfAttributes) {
-                out.println(name);
+            for (Attribute attribute: attributes) {
+                out.println("<a href=\"/metaproject/attribute?attrId="+attribute.getId()+"\">"+attribute.getName()+"</a>");
                 out.println("<br>");
             }
 

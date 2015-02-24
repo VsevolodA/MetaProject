@@ -123,4 +123,23 @@
         <url-pattern>/objectparameters</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>AttributeUpdateServlet</servlet-name>
+        <servlet-class>vska.servlet.attribute.AttributeUpdateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AttributeUpdateServlet</servlet-name>
+        <url-pattern>/attribute</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ObjectTypeUpdateServlet</servlet-name>
+        <servlet-class>vska.servlet.objecttype.ObjectTypeUpdateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ObjectTypeUpdateServlet</servlet-name>
+        <url-pattern>/objecttypeupdate</url-pattern>
+    </servlet-mapping>
 </web-app>

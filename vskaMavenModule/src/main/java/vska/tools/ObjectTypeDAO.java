@@ -29,6 +29,9 @@ public class ObjectTypeDAO {
         final Connection connection = JDBCPostgre.getConnection();
 
         try {
+            if (id == null) {
+                return null;
+            }
             final String selectQuery =
                     "SELECT id, name FROM "+JDBCPostgre.OBJECTTYPES_TABLE+" WHERE id = ?";
 
@@ -195,6 +198,30 @@ public class ObjectTypeDAO {
         statement.setInt(2, id);
 
         statement.execute();
+    }
+
+    public void flushToDB (ObjectType objectType) {
+        final Connection connection = JDBCPostgre.getConnection();
+        try {
+            connection.setAutoCommit(Boolean.FALSE);
+
+            final String upadateQuery =
+                    "UPDATE "+JDBCPostgre.OBJECTTYPES_TABLE+" SET name = ? WHERE id = ?";
+
+            final PreparedStatement statement = connection.prepareStatement(upadateQuery );
+            statement.setString(1, objectType.getName());
+            statement.setInt(2, objectType.getId());
+
+            statement.execute();
+
+            connection.commit();
+        } catch (SQLException e) {
+            try {
+                connection.rollback();
+            } catch (SQLException e1) {
+                e1.printStackTrace();
+            }
+        }
     }
 
     public void deleteObjectType (String name){
