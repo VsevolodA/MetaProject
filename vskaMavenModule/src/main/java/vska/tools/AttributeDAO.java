@@ -20,13 +20,14 @@ import java.util.List;
 public class AttributeDAO {
 
     private static AttributeDAO instance = new AttributeDAO();
+    private Connection connection;
 
     public static AttributeDAO getInstance() {
         return instance;
     }
 
     public void createAttribute(final String attributeName, final Integer typeId, final String objectTypeName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
             connection.setAutoCommit(Boolean.FALSE);
             final String createQuery =
@@ -46,6 +47,7 @@ public class AttributeDAO {
 
             preparedStatement.execute();
             connection.commit();
+            connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
             try {
@@ -58,7 +60,7 @@ public class AttributeDAO {
     }
 
     public void deleteAttribute(final String attributeName, final String objectTypeName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
             connection.setAutoCommit(Boolean.FALSE);
             final String deleteQuery =
@@ -74,6 +76,7 @@ public class AttributeDAO {
 
             preparedStatement.execute();
             connection.commit();
+            connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
             try {
@@ -86,7 +89,7 @@ public class AttributeDAO {
     }
 
     public void flushToDB(Attribute attribute) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
             connection.setAutoCommit(Boolean.FALSE);
             final String updateQuery =
@@ -99,6 +102,7 @@ public class AttributeDAO {
 
             preparedStatement.execute();
             connection.commit();
+            connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
             try {
@@ -111,7 +115,7 @@ public class AttributeDAO {
     }
 
     public List<String> getNamesOfAttributesByObjectType (String objectName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
             final List<String> res = new ArrayList<String>();
 
@@ -127,6 +131,7 @@ public class AttributeDAO {
             while (resultSet.next()) {
                 res.add(resultSet.getString("attrname"));
             }
+            connection.close();
             return res;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -135,7 +140,7 @@ public class AttributeDAO {
     }
 
     public Attribute getAttributeByNameAndOT(String attrName, String objectTypeName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
             Attribute attribute = null;
 
@@ -153,6 +158,7 @@ public class AttributeDAO {
                 final Integer typeId = resultSet.getInt("type_id");
                 attribute = new Attribute(attrId, attrName, typeId);
             }
+            connection.close();
             return attribute;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -161,7 +167,7 @@ public class AttributeDAO {
     }
 
     public List<Integer> getAttributeIdsByObjectType (String objectTypeName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
             final List<Integer> res = new ArrayList<Integer>();
 
@@ -177,6 +183,7 @@ public class AttributeDAO {
             while (resultSet.next()) {
                 res.add(Integer.valueOf(resultSet.getString("attrid")));
             }
+            connection.close();
             return res;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -185,7 +192,7 @@ public class AttributeDAO {
     }
 
     public List<Attribute> getAttributeByObjectType (String objectTypeName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
             final List<Attribute> res = new ArrayList<Attribute>();
             final ObjectType objectType = ObjectTypeDAO.getInstance().getObjectType(objectTypeName);
@@ -208,6 +215,7 @@ public class AttributeDAO {
                 Attribute attribute = new Attribute(attrId, attrName, typeId);
                 res.add(attribute);
             }
+            connection.close();
             return res;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -216,7 +224,7 @@ public class AttributeDAO {
     }
 
     public Attribute getAttributeById (Integer attributeId) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
 
             final String getNamesQuery =
@@ -232,6 +240,7 @@ public class AttributeDAO {
                 final Integer typeId = resultSet.getInt("type_id");
 
                 Attribute attribute = new Attribute(attrId, attrName, typeId);
+                connection.close();
                 return attribute;
             }
         } catch (SQLException e) {
@@ -241,7 +250,7 @@ public class AttributeDAO {
     }
 
     public Attribute getAttributeByName (String attributeName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
 
             final String getNamesQuery =
@@ -257,6 +266,7 @@ public class AttributeDAO {
                 final Integer typeId = resultSet.getInt("type_id");
 
                 Attribute attribute = new Attribute(attrId, attrName, typeId);
+                connection.close();
                 return attribute;
             }
         } catch (SQLException e) {

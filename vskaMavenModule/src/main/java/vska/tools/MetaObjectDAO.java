@@ -21,13 +21,14 @@ import java.util.Map;
 public class MetaObjectDAO {
 
     private static MetaObjectDAO instance = new MetaObjectDAO();
+    private Connection connection;
 
     public static MetaObjectDAO getInstance() {
         return instance;
     }
 
     public void createObject (String name, String objectTypeName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
             connection.setAutoCommit(Boolean.FALSE);
 
@@ -48,6 +49,7 @@ public class MetaObjectDAO {
 
             statement.execute();
             connection.commit();
+            connection.close();
         } catch (SQLException e) {
             try {
                 connection.rollback();
@@ -59,7 +61,7 @@ public class MetaObjectDAO {
     }
 
     public void deleteObject (String name, String objectTypeName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
         try {
             connection.setAutoCommit(Boolean.FALSE);
 
@@ -73,6 +75,7 @@ public class MetaObjectDAO {
             statement.execute();
 
             connection.commit();
+            connection.close();
         } catch (SQLException e) {
             try {
                 connection.rollback();
@@ -84,7 +87,7 @@ public class MetaObjectDAO {
     }
 
     public List<MetaObject> getListOfObject() {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
 
         List<MetaObject> res = new ArrayList<MetaObject>();
         try {
@@ -107,7 +110,7 @@ public class MetaObjectDAO {
 
                 res.add(metaObject);
             }
-
+            connection.close();
             return res;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -116,7 +119,7 @@ public class MetaObjectDAO {
     }
 
     public List<MetaObject> findObjectsByName(String objectName) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
 
         List<MetaObject> res = new ArrayList<MetaObject>();
         try {
@@ -141,7 +144,7 @@ public class MetaObjectDAO {
 
                 res.add(metaObject);
             }
-
+            connection.close();
             return res;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -150,7 +153,7 @@ public class MetaObjectDAO {
     }
 
     public MetaObject getObjectById(Integer objectId) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
 
         MetaObject res = null;
         try {
@@ -175,7 +178,7 @@ public class MetaObjectDAO {
 
                 res = metaObject;
             }
-
+            connection.close();
             return res;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -184,7 +187,7 @@ public class MetaObjectDAO {
     }
 
     public Map<Attribute, AttributeValue> getParameters (MetaObject object) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
 
         try {
             final Map<Attribute, AttributeValue> res = new HashMap<Attribute, AttributeValue>();
@@ -225,6 +228,7 @@ public class MetaObjectDAO {
 
                 res.put(attribute, attributeValue);
             }
+            connection.close();
             return res;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -237,7 +241,7 @@ public class MetaObjectDAO {
     }
 
     public void flushToDB (MetaObject metaObject, Map<Attribute, Boolean> needUpdate) {
-        final Connection connection = JDBCPostgre.getConnection();
+        connection = JDBCPostgre.getConnection();
 
         try {
             connection.setAutoCommit(Boolean.FALSE);
@@ -273,6 +277,7 @@ public class MetaObjectDAO {
                 }
             }
             connection.commit();
+            connection.close();
         } catch (SQLException e) {
             try {
                 connection.rollback();

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5314460-10b5-42a3-8bb8-3daa17650678" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectListServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectListServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/AttributeDAO.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/AttributeDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MetaProject.iws" />
@@ -16,11 +16,11 @@
     <file path="/pom.xml" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1423942759506" ignored="false" />
     <file path="/fragment.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424028461822" ignored="false" />
     <file path="/JDBCPostgre.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424463640257" ignored="false" />
-    <file path="/MetaObjectDAO.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424648382006" ignored="false" />
+    <file path="/MetaObjectDAO.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424984655516" ignored="false" />
     <file path="/StartTest.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424031754623" ignored="false" />
     <file path="/ObjectTypeServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424293854621" ignored="false" />
     <file path="/web.xml" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424807984528" ignored="false" />
-    <file path="/ObjectTypeDAO.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424809094053" ignored="false" />
+    <file path="/ObjectTypeDAO.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424984749536" ignored="false" />
     <file path="/ObjectTypeCreateServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424377968709" ignored="false" />
     <file path="/ObjectType.html" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424526665580" ignored="false" />
     <file path="/ObjectTypeDelete.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424296206223" ignored="false" />
@@ -32,7 +32,7 @@
     <file path="/ObjectTypeListServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424806091820" ignored="false" />
     <file path="/AttributeCreateServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424466051977" ignored="false" />
     <file path="/AttributeDeleteServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424464687336" ignored="false" />
-    <file path="/AttributeDAO.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424809820068" ignored="false" />
+    <file path="/AttributeDAO.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424984537668" ignored="false" />
     <file path="/Attribute.html" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424466351442" ignored="false" />
     <file path="/AttributeListServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424806313424" ignored="false" />
     <file path="/MetaObject.html" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424685693101" ignored="false" />
@@ -41,7 +41,7 @@
     <file path="/ObjectSearchServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424685826866" ignored="false" />
     <file path="/MetaObject.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424647211119" ignored="false" />
     <file path="/a.dummy" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424648007906" ignored="false" />
-    <file path="/Dummy.txt" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424981559878" ignored="false" />
+    <file path="/Dummy.txt" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424983681444" ignored="false" />
     <file path="/AttributeUpdateServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424805407895" ignored="false" />
     <file path="/ObjectTypeUpdate.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424807997858" ignored="false" />
     <file path="/ObjectTypeUpdateServlet.java" changelist="e5314460-10b5-42a3-8bb8-3daa17650678" time="1424808717863" ignored="false" />
@@ -162,10 +162,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AttributeDAO.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AttributeDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/AttributeDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="55" selection-start="3590" selection-end="3590" vertical-scroll-proportion="0.43636364">
+            <state line="268" column="35" selection-start="10479" selection-end="10479" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,7 +174,7 @@
       <file leaf-file-name="MetaObjectDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="223" column="66" selection-start="8085" selection-end="8085" vertical-scroll-proportion="0.0">
+            <state line="279" column="31" selection-start="10207" selection-end="10207" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,10 +198,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectTypeDAO.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ObjectTypeDAO.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="21" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="-9.668622">
               <folding />
             </state>
           </provider>
@@ -287,17 +287,17 @@
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectSearchServlet.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectParametersServlet.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/JDBCPostgre.java" />
-        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeListServlet.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeUpdate.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeUpdateServlet.java" />
-        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeListServlet.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeUpdateServlet.java" />
-        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/AttributeDAO.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectListServlet.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/AttributeDAO.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java" />
       </list>
     </option>
   </component>
@@ -977,7 +977,11 @@
       <created>1424810181608</created>
       <updated>1424810181608</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="minor fix">
+      <created>1424983690259</created>
+      <updated>1424983690259</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -995,20 +999,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6761269" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16969697" sideWeight="0.6861436" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16969697" sideWeight="0.68509215" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075758" sideWeight="0.6861436" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31385642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075758" sideWeight="0.68509215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31490788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6844741" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1054,7 +1058,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added update page for attribute and object type" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1072,6 +1076,7 @@
     <MESSAGE value="test2" />
     <MESSAGE value="fixed getting connection" />
     <MESSAGE value="added update page for attribute and object type" />
+    <MESSAGE value="minor fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1126,13 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="21" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="61" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
@@ -1172,13 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="66" selection-start="8085" selection-end="8085" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="581" column="33" selection-start="21708" selection-end="21708" vertical-scroll-proportion="0.0">
@@ -1202,7 +1193,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/AttributeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="55" selection-start="3590" selection-end="3590" vertical-scroll-proportion="0.43636364">
+        <state line="268" column="35" selection-start="10479" selection-end="10479" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="279" column="31" selection-start="10207" selection-end="10207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="-9.668622">
           <folding />
         </state>
       </provider>
