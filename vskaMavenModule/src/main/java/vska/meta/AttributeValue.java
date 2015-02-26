@@ -18,7 +18,7 @@ public class AttributeValue {
     public AttributeValue (Attribute attribute, String value) {
         final Integer attrTypeId = attribute.getTypeId();
         if (Attribute.ATTR_TYPE_REFERENCE_ID.equals(attrTypeId)) {
-            final MetaObject reference = value != null ? MetaObjectDAO.getInstance().getObjectById(Integer.valueOf(value)) : null;
+            final MetaObject reference = value != null && "".equals(value) ? MetaObjectDAO.getInstance().getObjectById(Integer.valueOf(value)) : null;
             this.attribute = attribute;
             this.reference = reference;
             this.value = reference != null ? reference.getName() : null;
