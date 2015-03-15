@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5314460-10b5-42a3-8bb8-3daa17650678" name="Default" comment="1. Added swing trivial implementation of view objects and them parameters&#10;2. minor fix">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/AppRun2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/ButtonModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/CreateObjectPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/EditMetaObjectPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/NewJDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+    <list default="true" id="e5314460-10b5-42a3-8bb8-3daa17650678" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\AppRun2.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\ButtonModel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\CreateObjectPage.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\EditMetaObjectPage.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\NewJDialog.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectJDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MetaProject.iws" />
@@ -151,51 +148,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppRun2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/AppRun2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1428">
-              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="46" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/ButtonModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2057">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="55" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MetalRootPaneUI.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/javax/swing/plaf/metal/MetalRootPaneUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="9994" max-vertical-offset="16116">
               <caret line="643" column="0" selection-start-line="643" selection-start-column="0" selection-end-line="643" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35707#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3956#3957#0" expanded="false" />
-                <element signature="e#4000#4001#0" expanded="false" />
-                <element signature="e#6220#6221#0" expanded="false" />
-                <element signature="e#6269#6270#0" expanded="false" />
-                <element signature="e#10137#10138#0" expanded="false" />
-                <element signature="e#10190#10191#0" expanded="false" />
-                <element signature="e#10423#10424#0" expanded="false" />
-                <element signature="e#10469#10470#0" expanded="false" />
-                <element signature="e#10635#10636#0" expanded="false" />
-                <element signature="e#10679#10680#0" expanded="false" />
-                <element signature="e#11941#11942#0" expanded="false" />
-                <element signature="e#11973#11974#0" expanded="false" />
-                <element signature="e#12116#12117#0" expanded="false" />
-                <element signature="e#12143#12144#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -219,12 +177,12 @@
       <file leaf-file-name="MetaObjectTableModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1819">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="109" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#490#510#0" expanded="true" />
-                <element signature="e#2592#2612#0" expanded="true" />
+                <element signature="e#407#427#0" expanded="true" />
+                <element signature="e#2509#2529#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,31 +222,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewJDialog.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/NewJDialog.java">
+      <file leaf-file-name="MetaObjectJDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectJDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20987654" vertical-offset="0" max-vertical-offset="2669">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="2669">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
-                <element signature="e#747#836#0" expanded="true" />
-                <element signature="e#1406#1578#0" expanded="true" />
-                <element signature="e#1577#1578#0" expanded="true" />
-                <element signature="e#4510#4597#0" expanded="true" />
-                <element signature="e#5947#6412#0" expanded="true" />
-                <element signature="e#6121#6345#0" expanded="true" />
-                <element signature="e#6344#6345#0" expanded="true" />
-                <element signature="e#6411#6412#0" expanded="true" />
+                <element signature="e#761#850#0" expanded="true" />
+                <element signature="e#1420#1592#0" expanded="true" />
+                <element signature="e#1591#1592#0" expanded="true" />
+                <element signature="e#4524#4611#0" expanded="true" />
+                <element signature="e#5989#6468#0" expanded="true" />
+                <element signature="e#6177#6401#0" expanded="true" />
+                <element signature="e#6400#6401#0" expanded="true" />
+                <element signature="e#6467#6468#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableOfObjectsModel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TableOfObjectsModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1088">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
+            <state vertical-scroll-proportion="0.47411004" vertical-offset="217" max-vertical-offset="1241">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -313,14 +275,15 @@
       <list>
         <option value="$PROJECT_DIR$/../Simple/src/lucene/HelloLucene.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" />
-        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/AppRun.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/df.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/ButtonModel.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/AppRun2.java" />
-        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/NewJDialog.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectJDialog.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java" />
       </list>
     </option>
   </component>
@@ -556,7 +519,7 @@
       <recent name="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewJDialog">
+  <component name="RunManager" selected="Application.MetaObjectJDialog">
     <configuration default="false" name="AppRun" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -585,14 +548,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="NewJDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MetaObjectJDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="vska.swing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="vska.swing.NewJDialog" />
+      <option name="MAIN_CLASS_NAME" value="vska.swing.MetaObjectJDialog" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1030,11 +993,11 @@
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JBoss Server.JbossTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.AppRun" />
-      <item index="2" class="java.lang.String" itemvalue="Application.NewJDialog" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MetaObjectJDialog" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.NewJDialog" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MetaObjectJDialog" />
         <item index="1" class="java.lang.String" itemvalue="Application.AppRun" />
       </list>
     </recent_temporary>
@@ -1067,7 +1030,7 @@
       <workItem from="1426191695044" duration="1395000" />
       <workItem from="1426418359664" duration="103000" />
       <workItem from="1426448242426" duration="1328000" />
-      <workItem from="1426454462621" duration="1917000" />
+      <workItem from="1426454462621" duration="2089000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1424728841419</created>
@@ -1111,15 +1074,21 @@
       <option name="project" value="LOCAL" />
       <updated>1424984777510</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1. Added swing trivial implementation of view objects and them parameters&#10;2. minor fix">
+      <created>1426456399716</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1426456399716</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18642000" />
+    <option name="totallyTimeSpent" value="18814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1376" height="748" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1135,7 +1104,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39473686" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1198,14 +1167,8 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/EditMetaObjectPage.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java</url>
-          <line>97</line>
+          <line>95</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -1268,38 +1231,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/AppRun2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="935">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/EditMetaObjectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1258">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/CreateObjectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1207">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1360,38 +1296,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/AppRun2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="935">
-          <caret line="56" column="91" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/EditMetaObjectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1258">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/CreateObjectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1377">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1522,27 +1431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/CreateObjectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1377">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/Attribute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1241">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/EditMetaObjectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1428">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1601,54 +1493,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="9994" max-vertical-offset="16116">
           <caret line="643" column="0" selection-start-line="643" selection-start-column="0" selection-end-line="643" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35707#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3956#3957#0" expanded="false" />
-            <element signature="e#4000#4001#0" expanded="false" />
-            <element signature="e#6220#6221#0" expanded="false" />
-            <element signature="e#6269#6270#0" expanded="false" />
-            <element signature="e#10137#10138#0" expanded="false" />
-            <element signature="e#10190#10191#0" expanded="false" />
-            <element signature="e#10423#10424#0" expanded="false" />
-            <element signature="e#10469#10470#0" expanded="false" />
-            <element signature="e#10635#10636#0" expanded="false" />
-            <element signature="e#10679#10680#0" expanded="false" />
-            <element signature="e#11941#11942#0" expanded="false" />
-            <element signature="e#11973#11974#0" expanded="false" />
-            <element signature="e#12116#12117#0" expanded="false" />
-            <element signature="e#12143#12144#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/ButtonModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="2125">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="55" selection-end-column="50" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/AppRun2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1360">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="109" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#510#0" expanded="true" />
-            <element signature="e#2592#2612#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1674,27 +1519,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java">
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1088">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#427#0" expanded="true" />
+            <element signature="e#2509#2529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/NewJDialog.java">
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectJDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20987654" vertical-offset="0" max-vertical-offset="2669">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="2669">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
-            <element signature="e#747#836#0" expanded="true" />
-            <element signature="e#1406#1578#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-            <element signature="e#4510#4597#0" expanded="true" />
-            <element signature="e#5947#6412#0" expanded="true" />
-            <element signature="e#6121#6345#0" expanded="true" />
-            <element signature="e#6344#6345#0" expanded="true" />
-            <element signature="e#6411#6412#0" expanded="true" />
+            <element signature="e#761#850#0" expanded="true" />
+            <element signature="e#1420#1592#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#4524#4611#0" expanded="true" />
+            <element signature="e#5989#6468#0" expanded="true" />
+            <element signature="e#6177#6401#0" expanded="true" />
+            <element signature="e#6400#6401#0" expanded="true" />
+            <element signature="e#6467#6468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47411004" vertical-offset="217" max-vertical-offset="1241">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
           </folding>
         </state>
       </provider>

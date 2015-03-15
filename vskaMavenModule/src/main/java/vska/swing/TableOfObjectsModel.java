@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.Set;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
-import vska.meta.Attribute;
 import vska.meta.MetaObject;
 import vska.tools.MetaObjectDAO;
 
@@ -33,6 +32,7 @@ public class TableOfObjectsModel implements TableModel {
     public TableOfObjectsModel () {
          this.objects = MetaObjectDAO.getInstance().getListOfObject();
     }
+
     public int getRowCount() {
         return objects.size();                
     }

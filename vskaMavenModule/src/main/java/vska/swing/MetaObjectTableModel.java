@@ -1,7 +1,5 @@
 package vska.swing;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import org.w3c.dom.Attr;
 import vska.meta.Attribute;
 import vska.meta.AttributeValue;
 import vska.meta.MetaObject;
