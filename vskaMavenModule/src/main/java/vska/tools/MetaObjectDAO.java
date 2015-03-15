@@ -60,6 +60,42 @@ public class MetaObjectDAO {
         }
     }
 
+    public MetaObject createAndReturnObject (String name, String objectTypeName) {
+        connection = JDBCPostgre.getConnection();
+        try {
+            connection.setAutoCommit(Boolean.FALSE);
+
+            final String createQuery =
+                    "INSERT INTO "+JDBCPostgre.METAOBJECTS_TABLE+" (id, object_type_id, name) " +
+                            "values (?, ?, ?)";
+
+            final String maxIdQuery = "select max(id) from " + JDBCPostgre.METAOBJECTS_TABLE;
+
+            final int id = JDBCPostgre.getIDForTable(JDBCPostgre.METAOBJECTS_TABLE);
+
+            Integer objectTypeId = ObjectTypeDAO.getInstance().getIdByName(objectTypeName);
+
+            final PreparedStatement statement = connection.prepareStatement(createQuery);
+            statement.setInt(1, id);
+            statement.setInt(2, objectTypeId);
+            statement.setString(3, name);
+
+            statement.execute();
+
+            connection.commit();
+            connection.close();
+            return getObjectById(id);
+        } catch (SQLException e) {
+            try {
+                connection.rollback();
+            } catch (SQLException e2) {
+                throw new RuntimeException(e2);
+            }
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     public void deleteObject (String name, String objectTypeName) {
         connection = JDBCPostgre.getConnection();
         try {
