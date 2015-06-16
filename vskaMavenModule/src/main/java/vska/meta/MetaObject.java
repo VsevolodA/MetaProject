@@ -1,8 +1,7 @@
 package vska.meta;
 
-import vska.tools.MetaObjectDAO;
+import vska.tools.sql.MetaObjectDAO;
 
-import java.math.BigInteger;
 import java.util.Map;
 
 /**
@@ -48,6 +47,15 @@ public class MetaObject {
         this.name = name;
         this.objectType = objectType;
         parameters = MetaObjectDAO.getInstance().getParameters(this);
+    }
+
+    public MetaObject() {}
+
+    public MetaObject(Integer id, String name, ObjectType objectType, Map<Attribute, AttributeValue> parameters) {
+        this.id = id;
+        this.name = name;
+        this.objectType = objectType;
+        this.parameters = parameters;
     }
 
     public Map<Attribute, AttributeValue> getParameters() {

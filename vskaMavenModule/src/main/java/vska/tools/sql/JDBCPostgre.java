@@ -1,4 +1,4 @@
-package vska.tools;
+package vska.tools.sql;
 
 import java.sql.*;
 

@@ -1,8 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="war" name="vskaMavenModule:war">
     <output-path>$PROJECT_DIR$/vskaMavenModule/target</output-path>
-    <root id="archive" name="metaproject-1.0-SNAPSHOT.war">
+    <root id="archive" name="metaproject-1.0.war">
       <element id="artifact" artifact-name="vskaMavenModule:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="lib" module-name="vskaMavenModule" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

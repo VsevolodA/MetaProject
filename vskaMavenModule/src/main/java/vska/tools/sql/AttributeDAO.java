@@ -1,4 +1,4 @@
-package vska.tools;
+package vska.tools.sql;
 
 import vska.meta.Attribute;
 import vska.meta.ObjectType;

@@ -1,6 +1,6 @@
 package vska.meta;
 
-import vska.tools.MetaObjectDAO;
+import vska.tools.sql.MetaObjectDAO;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,6 +14,8 @@ public class AttributeValue {
     private Attribute attribute;
     private String value;
     private MetaObject reference;
+
+    public AttributeValue () {}
 
     public AttributeValue (Attribute attribute, String value) {
         final Integer attrTypeId = attribute.getTypeId();

@@ -3,7 +3,7 @@ package vska.swing;
 import vska.meta.Attribute;
 import vska.meta.AttributeValue;
 import vska.meta.MetaObject;
-import vska.tools.MetaObjectDAO;
+import vska.tools.sql.MetaObjectDAO;
 
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
@@ -19,6 +19,10 @@ public class MetaObjectTableModel implements TableModel {
     private Map<Attribute, AttributeValue> parameters;
     private List<Attribute> attributes;
     private List<AttributeValue> attributeValues;
+    
+    public MetaObject getMetaObject() {
+        return metaObject;
+    }
 
     public MetaObjectTableModel(MetaObject metaObject) {
 

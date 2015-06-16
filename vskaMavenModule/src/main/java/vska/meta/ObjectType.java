@@ -32,6 +32,8 @@ public class ObjectType {
         this.name = name;
     }
 
+    public ObjectType () {}
+
     public ObjectType (Integer id, String name) {
         this.id = id;
         this.name = name;

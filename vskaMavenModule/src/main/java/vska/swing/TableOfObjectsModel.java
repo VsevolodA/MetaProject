@@ -11,7 +11,7 @@ import java.util.Set;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
 import vska.meta.MetaObject;
-import vska.tools.MetaObjectDAO;
+import vska.tools.sql.MetaObjectDAO;
 
 /**
  *

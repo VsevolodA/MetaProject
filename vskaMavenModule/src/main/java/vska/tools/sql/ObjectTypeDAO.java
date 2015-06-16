@@ -1,12 +1,10 @@
-package vska.tools;
+package vska.tools.sql;
 
 import vska.meta.ObjectType;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.

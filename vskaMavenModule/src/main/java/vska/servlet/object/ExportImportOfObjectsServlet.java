@@ -1,41 +1,43 @@
 package vska.servlet.object;
 
+import vska.meta.MetaObject;
 import vska.tools.sql.MetaObjectDAO;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
- * User: Seva
- * Date: 20.02.15
- * Time: 0:09
- * To change this template use File | Settings | File Templates.
+ * Created by Seva on 14.04.2015.
  */
-public class DeleteObjectServlet extends HttpServlet {
+
+public class ExportImportOfObjectsServlet extends HttpServlet {
     public void doGet (HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
 
         final PrintWriter out = response.getWriter();
 
         out.println("<html><head>");
-        out.println("<h2>Delete object type</h2>");
+        out.println("<h2>Export/Import of objects</h2>");
 
         out.println(
-                "<form method=\"post\" action = \"" + request.getContextPath() +
-                        "/deleteobject\" >"
+                "<form enctype=\"multipart/form-data\" method=\"post\" action = \"" + request.getContextPath() +
+                        "/ei\" >"
         );
 
         out.println("<table border=\"1\"><tr><td valign=\"top\">");
-        out.println("Name of object: </td> <td valign=\"top\">");
-        out.println("<input type=\"text\" name=\"objectname\" size=\"20\">");
+        out.println("Operation </td> <td valign=\"top\">");
+        out.println("<input type=\"text\" name=\"operation\" size=\"20\">");
         out.println("</td></tr>");
-        out.println("<tr><td>Object Type of object: </td> <td valign=\"top\">");
-        out.println("<input type=\"text\" name=\"objecttypeofobject\" size=\"20\">");
+        out.println("<tr><td>ObjectId for export operation: </td> <td valign=\"top\">");
+        out.println("<input type=\"text\" name=\"objectid\" size=\"20\">");
+        out.println("</td></tr>");
+        out.println("<tr><td>File for import operation: </td> <td valign=\"top\">");
+        out.println("<input type=\"file\" name=\"file\" size=\"20\">");
         out.println("</td></tr>");
 
         out.println("<input type=\"submit\" value=\"Submit\">");
@@ -55,18 +57,20 @@ public class DeleteObjectServlet extends HttpServlet {
 
         response.setContentType("text/html");
 
-        PrintWriter out = response.getWriter();
+        final PrintWriter out = response.getWriter();
 
         out.println("<html><head>");
-        out.println("<title>Object type</title></head><body>");
+        out.println("<title>Result Operation</title></head><body>");
 
         if (!emptyEnum) {
-            String objectName = paramNames.get("objectname")[0];
-            String objecttypeOfObject = paramNames.get("objecttypeofobject")[0];
+            String operation = paramNames.get("operation")[0];
 
-            MetaObjectDAO.getInstance().deleteObject(objectName, objecttypeOfObject);
+            if ("export".equals(operation)) {
+                String objectId;
+            } else if ("import".equals(operation)) {
 
-            out.println("Object type \""+ objectName+"\" success deleted");
+                paramNames.get("file");
+            }
         }
 
         out.println("</body></html>");

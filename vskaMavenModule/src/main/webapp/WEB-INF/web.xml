@@ -142,4 +142,14 @@
         <servlet-name>ObjectTypeUpdateServlet</servlet-name>
         <url-pattern>/objecttypeupdate</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExportImportOfObjectsServlet</servlet-name>
+        <servlet-class>vska.servlet.object.ExportImportOfObjectsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ExportImportOfObjectsServlet</servlet-name>
+        <url-pattern>/ei</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -1,10 +1,7 @@
 package vska.servlet.attribute;
 
 import vska.meta.Attribute;
-import vska.meta.AttributeValue;
-import vska.meta.MetaObject;
-import vska.tools.AttributeDAO;
-import vska.tools.MetaObjectDAO;
+import vska.tools.sql.AttributeDAO;
 
 
 import javax.servlet.http.HttpServlet;
@@ -12,8 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**

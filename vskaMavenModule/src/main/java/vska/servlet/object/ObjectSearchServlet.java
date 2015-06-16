@@ -1,7 +1,7 @@
 package vska.servlet.object;
 
 import vska.meta.MetaObject;
-import vska.tools.MetaObjectDAO;
+import vska.tools.sql.MetaObjectDAO;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

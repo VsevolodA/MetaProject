@@ -3,8 +3,8 @@ package vska.servlet.object;
 import vska.meta.Attribute;
 import vska.meta.AttributeValue;
 import vska.meta.MetaObject;
-import vska.tools.AttributeDAO;
-import vska.tools.MetaObjectDAO;
+import vska.tools.sql.AttributeDAO;
+import vska.tools.sql.MetaObjectDAO;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

@@ -1,4 +1,4 @@
-package vska.tools;
+package vska.tools.sql;
 
 import vska.meta.Attribute;
 import vska.meta.AttributeValue;
@@ -39,6 +39,35 @@ public class MetaObjectDAO {
             final String maxIdQuery = "select max(id) from " + JDBCPostgre.METAOBJECTS_TABLE;
 
             final int id = JDBCPostgre.getIDForTable(JDBCPostgre.METAOBJECTS_TABLE);
+
+            Integer objectTypeId = ObjectTypeDAO.getInstance().getIdByName(objectTypeName);
+
+            final PreparedStatement statement = connection.prepareStatement(createQuery);
+            statement.setInt(1, id);
+            statement.setInt(2, objectTypeId);
+            statement.setString(3, name);
+
+            statement.execute();
+            connection.commit();
+            connection.close();
+        } catch (SQLException e) {
+            try {
+                connection.rollback();
+            } catch (SQLException e2) {
+                throw new RuntimeException(e2);
+            }
+            e.printStackTrace();
+        }
+    }
+
+    public void createObject (String name, String objectTypeName, Integer id) {
+        connection = JDBCPostgre.getConnection();
+        try {
+            connection.setAutoCommit(Boolean.FALSE);
+
+            final String createQuery =
+                    "INSERT INTO "+JDBCPostgre.METAOBJECTS_TABLE+" (id, object_type_id, name) " +
+                            "values (?, ?, ?)";
 
             Integer objectTypeId = ObjectTypeDAO.getInstance().getIdByName(objectTypeName);
 
@@ -276,10 +305,14 @@ public class MetaObjectDAO {
         flushToDB(metaObject, null);
     }
 
-    public void flushToDB (MetaObject metaObject, Map<Attribute, Boolean> needUpdate) {
-        connection = JDBCPostgre.getConnection();
+    public void flushToDB (final MetaObject metaObject, Map<Attribute, Boolean> needUpdate) {
+
 
         try {
+
+            createObject(metaObject.getName(), metaObject.getObjectType().getName(), metaObject.getId());
+
+            connection = JDBCPostgre.getConnection();
             connection.setAutoCommit(Boolean.FALSE);
 
             final String updateQuery =

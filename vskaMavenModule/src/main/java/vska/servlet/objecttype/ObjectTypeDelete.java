@@ -1,6 +1,6 @@
 package vska.servlet.objecttype;
 
-import vska.tools.ObjectTypeDAO;
+import vska.tools.sql.ObjectTypeDAO;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

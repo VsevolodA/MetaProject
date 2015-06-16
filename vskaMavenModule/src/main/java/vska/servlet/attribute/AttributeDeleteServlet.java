@@ -1,6 +1,6 @@
 package vska.servlet.attribute;
 
-import vska.tools.AttributeDAO;
+import vska.tools.sql.AttributeDAO;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

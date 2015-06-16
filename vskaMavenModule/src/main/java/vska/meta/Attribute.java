@@ -63,6 +63,8 @@ public class Attribute {
         this.name = name;
     }
 
+    public Attribute () {}
+
     public Attribute (Integer id, String name, Integer typeId) {
         this.id = id;
         this.name = name;

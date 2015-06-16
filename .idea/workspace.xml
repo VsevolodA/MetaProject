@@ -2,13 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5314460-10b5-42a3-8bb8-3daa17650678" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\AppRun2.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\ButtonModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\CreateObjectPage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\EditMetaObjectPage.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\swing\NewJDialog.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectJDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ExportImportOfObjectsServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/xml/XMLHelper.java" />
+      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\tools\reader\CVSReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\tools\reader\SQLReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\tools\reader\XMLReader.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\tools\AttributeDAO.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/AttributeDAO.java" />
+      <change type="MOVED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\tools\JDBCPostgre.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/JDBCPostgre.java" />
+      <change type="MOVED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\tools\MetaObjectDAO.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/MetaObjectDAO.java" />
+      <change type="MOVED" beforePath="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\java\vska\tools\ObjectTypeDAO.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/ObjectTypeDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/Attribute.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/Attribute.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeCreateServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeCreateServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeDeleteServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeDeleteServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeListServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeListServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeUpdateServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeUpdateServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/DeleteObjectServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/DeleteObjectServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/MetaObject.html" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/MetaObject.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/MetaObject.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/MetaObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MetaProject.iml" afterPath="$PROJECT_DIR$/MetaProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectCreateServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectCreateServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectListServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectListServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectParametersServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectParametersServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectSearchServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectSearchServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/ObjectType.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/ObjectType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeCreateServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeCreateServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeDelete.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeDelete.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeListServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeListServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeUpdateServlet.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/objecttype/ObjectTypeUpdateServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/pom.xml" afterPath="$PROJECT_DIR$/vskaMavenModule/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/vskaMavenModule.iml" afterPath="$PROJECT_DIR$/vskaMavenModule/vskaMavenModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/vskaMavenModule_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/vskaMavenModule_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/vskaMavenModule_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/vskaMavenModule_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MetaProject.iws" />
@@ -148,109 +180,133 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MetalRootPaneUI.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/javax/swing/plaf/metal/MetalRootPaneUI.java">
+      <file leaf-file-name="ExportImportOfObjectsServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ExportImportOfObjectsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9994" max-vertical-offset="16116">
-              <caret line="643" column="0" selection-start-line="643" selection-start-column="0" selection-end-line="643" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1428">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberFormatException.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/NumberFormatException.java">
+      <file leaf-file-name="AttributeDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/AttributeDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="782">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="4641">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#0#1368#0" expanded="false" />
-                <element signature="e#767#768#0" expanded="false" />
-                <element signature="e#790#791#0" expanded="false" />
-                <element signature="e#997#998#0" expanded="false" />
-                <element signature="e#1022#1023#0" expanded="false" />
+                <marker date="1428614154172" expanded="true" signature="904:1050" placeholder="INSERT INTO ..." />
+                <marker date="1428614154172" expanded="true" signature="2220:2334" placeholder="DELETE FROM ..." />
+                <marker date="1428614154172" expanded="true" signature="3263:3305" placeholder="UPDATE attri..." />
+                <marker date="1428614154172" expanded="true" signature="4190:4430" placeholder="SELECT attr...attribute..." />
+                <marker date="1428614154172" expanded="true" signature="5185:5328" placeholder="SELECT attr...attribute..." />
+                <marker date="1428614154172" expanded="true" signature="6341:6601" placeholder="SELECT attr...attribute..." />
+                <marker date="1428614154172" expanded="true" signature="7575:7728" placeholder="SELECT attr...attribute..." />
+                <marker date="1428614154172" expanded="true" signature="8685:8826" placeholder="SELECT attr...attribute..." />
+                <marker date="1428614154172" expanded="true" signature="9754:9897" placeholder="SELECT attr...attribute..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetaObjectTableModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java">
+      <file leaf-file-name="XMLHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/xml/XMLHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="1411">
+              <caret line="62" column="45" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#407#427#0" expanded="true" />
-                <element signature="e#2509#2529#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2314#2315#0" expanded="false" />
+                <element signature="e#2352#2353#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttributeValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1224">
-              <caret line="24" column="78" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MetaObjectDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java">
+        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/MetaObjectDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2837" max-vertical-offset="5457">
-              <caret line="193" column="55" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="5137" max-vertical-offset="6052">
+              <caret line="310" column="13" selection-start-line="310" selection-start-column="13" selection-end-line="310" selection-end-column="13" />
               <folding>
-                <marker date="1425773220516" expanded="true" signature="868:990" placeholder="INSERT INTO ..." />
-                <marker date="1425773220516" expanded="true" signature="2088:2210" placeholder="INSERT INTO ..." />
-                <marker date="1425773220516" expanded="true" signature="3354:3437" placeholder="DELETE FROM ..." />
-                <marker date="1425773220516" expanded="true" signature="4243:4280" placeholder="SELECT id, o..meta_objects..." />
-                <marker date="1425773220516" expanded="true" signature="5340:5449" placeholder="SELECT id, o..meta_objects..." />
-                <marker date="1425773220516" expanded="true" signature="6484:6596" placeholder="SELECT id, o..meta_objects..." />
-                <marker date="1425773220516" expanded="true" signature="7711:8689" placeholder="SELECT attrs..attr_id..." />
-                <marker date="1425773220516" expanded="true" signature="8005:8169" placeholder="SELECT attr_..params..." />
-                <marker date="1425773220516" expanded="true" signature="8299:8614" placeholder="SELECT a.id ..attribute..." />
-                <marker date="1425773220516" expanded="true" signature="10073:10136" placeholder="UPDATE param..." />
-                <marker date="1425773220516" expanded="true" signature="10200:10261" placeholder="INSERT INTO ..." />
-                <marker date="1425773220516" expanded="true" signature="10247:10261" placeholder="SELECT ?, ?,..." />
-                <marker date="1425773220516" expanded="true" signature="10386:10452" placeholder="SELECT ?, ?,..." />
+                <element signature="e#10800#10801#0" expanded="true" />
+                <element signature="e#10843#10844#0" expanded="true" />
+                <marker date="1429049790115" expanded="true" signature="872:994" placeholder="INSERT INTO ..." />
+                <marker date="1429049790115" expanded="true" signature="2089:2211" placeholder="INSERT INTO ..." />
+                <marker date="1429049790115" expanded="true" signature="3128:3250" placeholder="INSERT INTO ..." />
+                <marker date="1429049790115" expanded="true" signature="4394:4477" placeholder="DELETE FROM ..." />
+                <marker date="1429049790115" expanded="true" signature="5283:5320" placeholder="SELECT id, o..meta_objects..." />
+                <marker date="1429049790115" expanded="true" signature="6380:6489" placeholder="SELECT id, o..meta_objects..." />
+                <marker date="1429049790115" expanded="true" signature="7524:7636" placeholder="SELECT id, o..meta_objects..." />
+                <marker date="1429049790115" expanded="true" signature="8751:9729" placeholder="SELECT attrs..attr_id..." />
+                <marker date="1429049790115" expanded="true" signature="9045:9209" placeholder="SELECT attr_..params..." />
+                <marker date="1429049790115" expanded="true" signature="9339:9654" placeholder="SELECT a.id ..attribute..." />
+                <marker date="1429049790115" expanded="true" signature="11232:11295" placeholder="UPDATE param..." />
+                <marker date="1429049790115" expanded="true" signature="11359:11420" placeholder="INSERT INTO ..." />
+                <marker date="1429049790115" expanded="true" signature="11406:11420" placeholder="SELECT ?, ?,..." />
+                <marker date="1429049790115" expanded="true" signature="11545:11611" placeholder="SELECT ?, ?,..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetaObjectJDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectJDialog.java">
+      <file leaf-file-name="CallableStatement.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/CallableStatement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="2669">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding>
-                <element signature="e#761#850#0" expanded="true" />
-                <element signature="e#1420#1592#0" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
-                <element signature="e#4524#4611#0" expanded="true" />
-                <element signature="e#5989#6468#0" expanded="true" />
-                <element signature="e#6177#6401#0" expanded="true" />
-                <element signature="e#6400#6401#0" expanded="true" />
-                <element signature="e#6467#6468#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="5538" max-vertical-offset="42143">
+              <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableOfObjectsModel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java">
+      <file leaf-file-name="Runnable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Runnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47411004" vertical-offset="217" max-vertical-offset="1241">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="884">
+              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2217" max-vertical-offset="2737">
+              <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectCreateServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectCreateServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="1241">
+              <caret line="72" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectSearchServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectSearchServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="833">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vskaMavenModule/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="697">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -274,8 +330,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../Simple/src/lucene/HelloLucene.java" />
-        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" />
-        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/AppRun.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/df.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/ButtonModel.java" />
@@ -284,11 +338,34 @@
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/NewJDialog.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectJDialog.java" />
         <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/reader/XMLReader.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/MetaObject.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/Attribute.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/ObjectType.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/reader/XMLHelper.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/XMLHelper.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/XMLHelper.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ExportInportOfObjectsServlet.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/webapp/MetaObject.html" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/pom.xml" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ExportImportOfObjectsServlet.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/MetaObjectDAO.java" />
+        <option value="$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/xml/XMLHelper.java" />
       </list>
     </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -359,6 +436,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="MetaProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -486,7 +567,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -495,7 +576,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Simple" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RSA" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.27578217" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -510,16 +591,22 @@
     <property name="options.searchVisible" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Seva\IdeaProjects\MetaProject\vskaMavenModule\src\main\webapp" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="vska.tools.reader" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MetaObjectJDialog">
+  <component name="RunManager" selected="Application.XMLHelper">
     <configuration default="false" name="AppRun" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -556,6 +643,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="vska.swing.MetaObjectJDialog" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="vskaMavenModule" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="XMLHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="vska.tools.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="vska.tools.xml.XMLHelper" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -678,6 +787,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/xstream-1.3.1.jar" />
       <envs />
       <method />
     </configuration>
@@ -990,15 +1100,17 @@
       </ConfigurationWrapper>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JBoss Server.JbossTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.AppRun" />
       <item index="2" class="java.lang.String" itemvalue="Application.MetaObjectJDialog" />
+      <item index="3" class="java.lang.String" itemvalue="Application.XMLHelper" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.MetaObjectJDialog" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AppRun" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.XMLHelper" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MetaObjectJDialog" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AppRun" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1030,7 +1142,25 @@
       <workItem from="1426191695044" duration="1395000" />
       <workItem from="1426418359664" duration="103000" />
       <workItem from="1426448242426" duration="1328000" />
-      <workItem from="1426454462621" duration="2089000" />
+      <workItem from="1426454462621" duration="2619000" />
+      <workItem from="1426502211343" duration="321000" />
+      <workItem from="1426848324798" duration="298000" />
+      <workItem from="1427096478123" duration="93000" />
+      <workItem from="1427105189628" duration="38000" />
+      <workItem from="1427664537500" duration="1391000" />
+      <workItem from="1428476206151" duration="5678000" />
+      <workItem from="1428610691381" duration="3548000" />
+      <workItem from="1428614407765" duration="856000" />
+      <workItem from="1429037095290" duration="33000" />
+      <workItem from="1429037572091" duration="6684000" />
+      <workItem from="1429044526095" duration="1206000" />
+      <workItem from="1429045996693" duration="2772000" />
+      <workItem from="1429132321101" duration="2761000" />
+      <workItem from="1429392188374" duration="89000" />
+      <workItem from="1429512131589" duration="53000" />
+      <workItem from="1430062496296" duration="45000" />
+      <workItem from="1430942881453" duration="648000" />
+      <workItem from="1434485568291" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1424728841419</created>
@@ -1080,47 +1210,53 @@
       <option name="project" value="LOCAL" />
       <updated>1426456399716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="minor fix">
+      <created>1426456579763</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1426456579763</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18814000" />
+    <option name="totallyTimeSpent" value="46149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1376" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3142415" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16969697" sideWeight="0.68509215" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16910689" sideWeight="0.68509215" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23938507" sideWeight="0.68509215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6761269" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39473686" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3142415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2408492" sideWeight="0.68509215" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32662538" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6844741" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39473686" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36146498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32662538" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1142,9 +1278,9 @@
     <MESSAGE value="test2" />
     <MESSAGE value="fixed getting connection" />
     <MESSAGE value="added update page for attribute and object type" />
-    <MESSAGE value="minor fix" />
     <MESSAGE value="1. Added swing trivial implementation of view objects and them parameters&#10;2. minor fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Added swing trivial implementation of view objects and them parameters&#10;2. minor fix" />
+    <MESSAGE value="minor fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1161,20 +1297,20 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/JDBCPostgre.java</url>
+          <url>file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/JDBCPostgre.java</url>
           <line>34</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java</url>
-          <line>95</line>
+          <line>99</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java</url>
-          <line>300</line>
+          <url>file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/MetaObjectDAO.java</url>
+          <line>333</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -1202,29 +1338,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java">
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/MetaObjectDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="5457">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <marker date="1425773220516" expanded="true" signature="868:990" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="2088:2210" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="3354:3437" placeholder="DELETE FROM ..." />
-            <marker date="1425773220516" expanded="true" signature="4243:4280" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="5340:5449" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="6484:6596" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="7711:8689" placeholder="SELECT attrs..attr_id..." />
-            <marker date="1425773220516" expanded="true" signature="8005:8169" placeholder="SELECT attr_..params..." />
-            <marker date="1425773220516" expanded="true" signature="8299:8614" placeholder="SELECT a.id ..attribute..." />
-            <marker date="1425773220516" expanded="true" signature="10073:10136" placeholder="UPDATE param..." />
-            <marker date="1425773220516" expanded="true" signature="10200:10261" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="10247:10261" placeholder="SELECT ?, ?,..." />
-            <marker date="1425773220516" expanded="true" signature="10386:10452" placeholder="SELECT ?, ?,..." />
+            <element signature="e#10800#10801#0" expanded="true" />
+            <element signature="e#10843#10844#0" expanded="true" />
+            <marker date="1429049790115" expanded="true" signature="872:994" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="2089:2211" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="3128:3250" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="4394:4477" placeholder="DELETE FROM ..." />
+            <marker date="1429049790115" expanded="true" signature="5283:5320" placeholder="SELECT id, o..meta_objects..." />
+            <marker date="1429049790115" expanded="true" signature="6380:6489" placeholder="SELECT id, o..meta_objects..." />
+            <marker date="1429049790115" expanded="true" signature="7524:7636" placeholder="SELECT id, o..meta_objects..." />
+            <marker date="1429049790115" expanded="true" signature="8751:9729" placeholder="SELECT attrs..attr_id..." />
+            <marker date="1429049790115" expanded="true" signature="9045:9209" placeholder="SELECT attr_..params..." />
+            <marker date="1429049790115" expanded="true" signature="9339:9654" placeholder="SELECT a.id ..attribute..." />
+            <marker date="1429049790115" expanded="true" signature="11232:11295" placeholder="UPDATE param..." />
+            <marker date="1429049790115" expanded="true" signature="11359:11420" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="11406:11420" placeholder="SELECT ?, ?,..." />
+            <marker date="1429049790115" expanded="true" signature="11545:11611" placeholder="SELECT ?, ?,..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java">
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/ObjectTypeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="4199">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
@@ -1235,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1258">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,94 +1405,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java">
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/MetaObjectDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="5457">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <marker date="1425773220516" expanded="true" signature="868:990" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="2088:2210" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="3354:3437" placeholder="DELETE FROM ..." />
-            <marker date="1425773220516" expanded="true" signature="4243:4280" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="5340:5449" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="6484:6596" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="7711:8689" placeholder="SELECT attrs..attr_id..." />
-            <marker date="1425773220516" expanded="true" signature="8005:8169" placeholder="SELECT attr_..params..." />
-            <marker date="1425773220516" expanded="true" signature="8299:8614" placeholder="SELECT a.id ..attribute..." />
-            <marker date="1425773220516" expanded="true" signature="10073:10136" placeholder="UPDATE param..." />
-            <marker date="1425773220516" expanded="true" signature="10200:10261" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="10247:10261" placeholder="SELECT ?, ?,..." />
-            <marker date="1425773220516" expanded="true" signature="10386:10452" placeholder="SELECT ?, ?,..." />
+            <element signature="e#10800#10801#0" expanded="true" />
+            <element signature="e#10843#10844#0" expanded="true" />
+            <marker date="1429049790115" expanded="true" signature="872:994" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="2089:2211" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="3128:3250" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="4394:4477" placeholder="DELETE FROM ..." />
+            <marker date="1429049790115" expanded="true" signature="5283:5320" placeholder="SELECT id, o..meta_objects..." />
+            <marker date="1429049790115" expanded="true" signature="6380:6489" placeholder="SELECT id, o..meta_objects..." />
+            <marker date="1429049790115" expanded="true" signature="7524:7636" placeholder="SELECT id, o..meta_objects..." />
+            <marker date="1429049790115" expanded="true" signature="8751:9729" placeholder="SELECT attrs..attr_id..." />
+            <marker date="1429049790115" expanded="true" signature="9045:9209" placeholder="SELECT attr_..params..." />
+            <marker date="1429049790115" expanded="true" signature="9339:9654" placeholder="SELECT a.id ..attribute..." />
+            <marker date="1429049790115" expanded="true" signature="11232:11295" placeholder="UPDATE param..." />
+            <marker date="1429049790115" expanded="true" signature="11359:11420" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="11406:11420" placeholder="SELECT ?, ?,..." />
+            <marker date="1429049790115" expanded="true" signature="11545:11611" placeholder="SELECT ?, ?,..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="4199">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="1258">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6120" max-vertical-offset="15062">
-          <caret line="390" column="29" selection-start-line="390" selection-start-column="29" selection-end-line="390" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/javax/swing/border/Border.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1190">
-          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/javax/swing/border/LineBorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2601">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1241">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="5457">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <marker date="1425773220516" expanded="true" signature="868:990" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="2088:2210" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="3354:3437" placeholder="DELETE FROM ..." />
-            <marker date="1425773220516" expanded="true" signature="4243:4280" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="5340:5449" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="6484:6596" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="7711:8689" placeholder="SELECT attrs..attr_id..." />
-            <marker date="1425773220516" expanded="true" signature="8005:8169" placeholder="SELECT attr_..params..." />
-            <marker date="1425773220516" expanded="true" signature="8299:8614" placeholder="SELECT a.id ..attribute..." />
-            <marker date="1425773220516" expanded="true" signature="10073:10136" placeholder="UPDATE param..." />
-            <marker date="1425773220516" expanded="true" signature="10200:10261" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="10247:10261" placeholder="SELECT ?, ?,..." />
-            <marker date="1425773220516" expanded="true" signature="10386:10452" placeholder="SELECT ?, ?,..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java">
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/ObjectTypeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="4199">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
@@ -1368,24 +1444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeUpdateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="98" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeCreateServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="78" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/AttributeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="43" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1410,17 +1472,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/ObjectTypeDAO.java">
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/ObjectTypeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="4199">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="67" column="126" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1431,25 +1486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1241">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/deploy.jar!/com/sun/deploy/panel/ReadOnlyTableModel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26153848" vertical-offset="0" max-vertical-offset="425">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/webapp/MetaObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="415">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1469,94 +1509,258 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="782">
+        <state vertical-scroll-proportion="0.75242716" vertical-offset="164" max-vertical-offset="782">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1368#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-            <element signature="e#997#998#0" expanded="false" />
-            <element signature="e#1022#1023#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1224">
-          <caret line="24" column="78" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/javax/swing/plaf/metal/MetalRootPaneUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9994" max-vertical-offset="16116">
+        <state vertical-scroll-proportion="0.22330096" vertical-offset="9994" max-vertical-offset="16116">
           <caret line="643" column="0" selection-start-line="643" selection-start-column="0" selection-end-line="643" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/MetaObjectDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2837" max-vertical-offset="5457">
-          <caret line="193" column="55" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
-          <folding>
-            <marker date="1425773220516" expanded="true" signature="868:990" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="2088:2210" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="3354:3437" placeholder="DELETE FROM ..." />
-            <marker date="1425773220516" expanded="true" signature="4243:4280" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="5340:5449" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="6484:6596" placeholder="SELECT id, o..meta_objects..." />
-            <marker date="1425773220516" expanded="true" signature="7711:8689" placeholder="SELECT attrs..attr_id..." />
-            <marker date="1425773220516" expanded="true" signature="8005:8169" placeholder="SELECT attr_..params..." />
-            <marker date="1425773220516" expanded="true" signature="8299:8614" placeholder="SELECT a.id ..attribute..." />
-            <marker date="1425773220516" expanded="true" signature="10073:10136" placeholder="UPDATE param..." />
-            <marker date="1425773220516" expanded="true" signature="10200:10261" placeholder="INSERT INTO ..." />
-            <marker date="1425773220516" expanded="true" signature="10247:10261" placeholder="SELECT ?, ?,..." />
-            <marker date="1425773220516" expanded="true" signature="10386:10452" placeholder="SELECT ?, ?,..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectTableModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+        <state vertical-scroll-proportion="0.055016182" vertical-offset="0" max-vertical-offset="1785">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#407#427#0" expanded="true" />
-            <element signature="e#2509#2529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectJDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="2669">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#761#850#0" expanded="true" />
-            <element signature="e#1420#1592#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#4524#4611#0" expanded="true" />
-            <element signature="e#5989#6468#0" expanded="true" />
-            <element signature="e#6177#6401#0" expanded="true" />
-            <element signature="e#6400#6401#0" expanded="true" />
-            <element signature="e#6467#6468#0" expanded="true" />
+            <element signature="e#411#431#0" expanded="true" />
+            <element signature="e#2591#2611#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/TableOfObjectsModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47411004" vertical-offset="217" max-vertical-offset="1241">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39158577" vertical-offset="302" max-vertical-offset="1241">
+          <caret line="38" column="76" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/attribute/AttributeUpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4498382" vertical-offset="1150" max-vertical-offset="1768">
+          <caret line="98" column="43" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/MetaObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1156">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/Attribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1275">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/AttributeValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1258">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/meta/ObjectType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="867">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/postgresql-9.4-1200.jdbc4.jar!/org/postgresql/jdbc4/Jdbc4CallableStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="493">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/vskaMavenModule.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5956873" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="13" column="71" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8670">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/lib.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/postgresql-9.4-1200.jdbc4.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectParametersServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="676" max-vertical-offset="2176">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="816">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/webapp/SearchObject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/webapp/MetaObject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/swing/MetaObjectJDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1537" max-vertical-offset="2176">
+          <caret line="106" column="42" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2302" max-vertical-offset="2737">
+          <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="697">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectCreateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="1241">
+          <caret line="72" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ObjectSearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="833">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/AttributeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="4641">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
+            <marker date="1428614154172" expanded="true" signature="904:1050" placeholder="INSERT INTO ..." />
+            <marker date="1428614154172" expanded="true" signature="2220:2334" placeholder="DELETE FROM ..." />
+            <marker date="1428614154172" expanded="true" signature="3263:3305" placeholder="UPDATE attri..." />
+            <marker date="1428614154172" expanded="true" signature="4190:4430" placeholder="SELECT attr...attribute..." />
+            <marker date="1428614154172" expanded="true" signature="5185:5328" placeholder="SELECT attr...attribute..." />
+            <marker date="1428614154172" expanded="true" signature="6341:6601" placeholder="SELECT attr...attribute..." />
+            <marker date="1428614154172" expanded="true" signature="7575:7728" placeholder="SELECT attr...attribute..." />
+            <marker date="1428614154172" expanded="true" signature="8685:8826" placeholder="SELECT attr...attribute..." />
+            <marker date="1428614154172" expanded="true" signature="9754:9897" placeholder="SELECT attr...attribute..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="884">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/sql/CallableStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5538" max-vertical-offset="42143">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/sql/MetaObjectDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5137" max-vertical-offset="6052">
+          <caret line="310" column="13" selection-start-line="310" selection-start-column="13" selection-end-line="310" selection-end-column="13" />
+          <folding>
+            <element signature="e#10800#10801#0" expanded="true" />
+            <element signature="e#10843#10844#0" expanded="true" />
+            <marker date="1429049790115" expanded="true" signature="872:994" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="2089:2211" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="3128:3250" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="4394:4477" placeholder="DELETE FROM ..." />
+            <marker date="1429049790115" expanded="true" signature="5283:5320" placeholder="SELECT id, o..meta_objects..." />
+            <marker date="1429049790115" expanded="true" signature="6380:6489" placeholder="SELECT id, o..meta_objects..." />
+            <marker date="1429049790115" expanded="true" signature="7524:7636" placeholder="SELECT id, o..meta_objects..." />
+            <marker date="1429049790115" expanded="true" signature="8751:9729" placeholder="SELECT attrs..attr_id..." />
+            <marker date="1429049790115" expanded="true" signature="9045:9209" placeholder="SELECT attr_..params..." />
+            <marker date="1429049790115" expanded="true" signature="9339:9654" placeholder="SELECT a.id ..attribute..." />
+            <marker date="1429049790115" expanded="true" signature="11232:11295" placeholder="UPDATE param..." />
+            <marker date="1429049790115" expanded="true" signature="11359:11420" placeholder="INSERT INTO ..." />
+            <marker date="1429049790115" expanded="true" signature="11406:11420" placeholder="SELECT ?, ?,..." />
+            <marker date="1429049790115" expanded="true" signature="11545:11611" placeholder="SELECT ?, ?,..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/tools/xml/XMLHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="1411">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2314#2315#0" expanded="false" />
+            <element signature="e#2352#2353#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vskaMavenModule/src/main/java/vska/servlet/object/ExportImportOfObjectsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1428">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1565,7 +1769,14 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+            </show-content>
+          </artifact-editor>
           <last-edited>vskaMavenModule:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
@@ -1579,11 +1790,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (vskaMavenModule)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.27578217" />
               </list>
             </option>
           </splitter-proportions>
@@ -1591,11 +1802,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>dom4jrrrrr</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.27578217" />
               </list>
             </option>
           </splitter-proportions>
@@ -1607,7 +1818,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.27578217" />
               </list>
             </option>
           </splitter-proportions>
@@ -1639,7 +1850,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>Maven: javax.servlet:servlet-api:3.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
